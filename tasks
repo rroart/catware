@@ -1,0 +1,32 @@
+Task 1
+
+Build with:
+mvn package
+
+Run with:
+java -jar target/catware-0.1-SNAPSHOT-jar-with-dependencies.jar 10
+
+******
+
+Task 2
+
+The resulting diagram is simple, due to I have not worked with diagrams at work, the last time was during my education, when the modelling was not UML.
+
+Using typical cloud services with autoscaling and cloud databases this
+should handle millions of shortenings.
+
+I also assume that this is a commercial provider like bit.ly.
+(Which requires some more complexity, like eventual deletion and recording stats (including audits and bookkeeping).
+
+The delivered diagram file is print.pdf.
+
+******
+
+Task 3
+
+I assume that the sports retailer has a generic solution running on
+some non-scalable architecture.
+Continuing on that architecture is not a good option.
+Buying new hardware may solve the problem temporarily, but not in the long run.
+If lifting it (or both) out and migrating to an autoscaling cloud solution with
+a scalable cloud database the problem would be solved. 
